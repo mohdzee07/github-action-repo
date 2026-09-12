@@ -9,7 +9,7 @@ test("Practice Test 1", async ({ page }) => {
 })
 
 test("Practice Test 2", async ({ page }) => {
-    console.log("Starting Practice Test 2");
+    console.log("123Starting Practice Test 2");
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
     expect(page).toHaveTitle("Swag Labsa");
